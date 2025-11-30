@@ -17,34 +17,13 @@ This project collects travel service reviews from Agoda and Traveloka platforms,
 ---
 
 ## Project Structure
-
+.
 ├── README.md
-├── requirements.txt
-├── .gitignore
-├── src
-│ ├── crawler
-│ │ ├── Agoda_Reviews_Scraping.ipynb
-│ │ ├── Details_Scraping.ipynb
-│ │ ├── Pages_Collection.ipynb
-│ │ ├── Traveloka_Link_BasicDetails_Scraping.ipynb
-│ │ ├── auxilliary_function
-│ │ │ ├── metadata.py
-│ │ │ └── setup_module.py
-│ │ ├── crawl_function
-│ │ ├── Agoda_Details_Scraping_Modules.py
-│ │ └── Agoda_Reviews_Scraping_Modules.py
-│ ├── hypothesis_testing
-│ │ ├── Hypothesis_Testing.ipynb
-│ │ └── Hypothesis_Testing_.ipynb
-│ ├── model
-│ │ ├── Model_Training.ipynb
-│ │ └── Training_Model_Module.py
-│ ├── mongo_db
-│ │ ├── db_agoda.py
-│ │ └── db_traveloka.py
-│ └── preprocessing
-│ ├── Exploratory_Data_Analysis.ipynb
-│ ├── Preprocessing.ipynb
-│ ├── Vietnamese_Reviews_Preprocessing.ipynb
-│ └── preprocessing_pipeline.ipynb
-
+├── requirements.txt         # Danh sách các thư viện Python cần thiết
+├── .gitignore               # Các file/thư mục cần bỏ qua bởi Git
+└── src                      # Thư mục Mã nguồn Chính
+    ├── crawler              # 1. Thu thập dữ liệu (Web Scraping)
+    ├── preprocessing        # 2. Tiền xử lý dữ liệu và Phân tích Khám phá (EDA)
+    ├── mongo_db             # 3. Kết nối và Quản lý Cơ sở dữ liệu MongoDB
+    ├── hypothesis_testing   # 4. Kiểm định Giả thuyết Thống kê
+    └── model                # 5. Huấn luyện Mô hình Học máy/Dự đoán
