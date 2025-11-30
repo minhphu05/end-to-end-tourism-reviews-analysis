@@ -1,5 +1,9 @@
 # DS304 - Travel Review Sentiment Analysis
 
+![](/resources/traveloka-head.jpg)
+
+![](/resources/agoda-head.jpg)
+
 ## Project Overview
 
 This project collects travel service reviews from Agoda and Traveloka platforms, applies pretrained models and manual annotation methods to label sentiment, and then trains machine learning models to classify review sentiments. The goal is to analyze customer opinions on travel services to support better business decisions.
@@ -18,12 +22,13 @@ This project collects travel service reviews from Agoda and Traveloka platforms,
 
 ## Project Structure
 
-- README.md
-- requirements.txt         # Danh sách các thư viện Python cần thiết
-- .gitignore               # Các file/thư mục cần bỏ qua bởi Git
-- src                      # Thư mục Mã nguồn Chính
-    + crawler              # 1. Thu thập dữ liệu (Web Scraping)
-    + preprocessing        # 2. Tiền xử lý dữ liệu và Phân tích Khám phá (EDA)
-    + mongo_db             # 3. Kết nối và Quản lý Cơ sở dữ liệu MongoDB
-    + hypothesis_testing   # 4. Kiểm định Giả thuyết Thống kê
-    + model                # 5. Huấn luyện Mô hình Học máy/Dự đoán
+- README.md  
+- requirements.txt         : List of required Python libraries  
+- .gitignore               : Files/folders to be ignored by Git  
+- src                      : Main source code folder  
+    + crawler              : Data collection (Web Scraping)  
+    + preprocessing        : Data preprocessing and Exploratory Data Analysis (EDA)  
+    + mongo_db             : MongoDB connection and management  
+    + hypothesis_testing   : Statistical hypothesis testing  
+    + model                : Machine learning model training and prediction  
+
